@@ -1,0 +1,17 @@
+
+# Dependencies
+node_modules/
+
+# Hasil kompilasi
+dist/
+
+# Environment rahasia
+.env
+
+# Log aplikasi
+*.log
+npm-debug.log*
+
+# File sistem operasi
+.DS_Store
+Thumbs.db

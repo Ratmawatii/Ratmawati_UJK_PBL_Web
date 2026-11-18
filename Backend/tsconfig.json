@@ -1,0 +1,33 @@
+
+{
+  "compilerOptions": {
+    // Versi JavaScript target hasil kompilasi
+    "target": "ES2022",
+
+    // Menggunakan sistem modul Node.js modern
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    // Folder sumber dan hasil kompilasi
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Mengaktifkan pemeriksaan tipe secara ketat
+    "strict": true,
+
+    // Mempermudah kompatibilitas import package
+    "esModuleInterop": true,
+
+    // Melewati pemeriksaan tipe file deklarasi library
+    "skipLibCheck": true,
+
+    // Menjaga konsistensi penamaan file
+    "forceConsistentCasingInFileNames": true
+  },
+
+  // Hanya file TypeScript dalam src yang dikompilasi
+  "include": ["src"],
+
+  // Folder hasil build tidak ikut dikompilasi ulang
+  "exclude": ["node_modules", "dist"]
+}
